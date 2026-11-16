@@ -3,7 +3,7 @@ import telebot, requests
 BOT_TOKEN = "9071470594:AAFRoLM7b5cP1G7f14nQnglUwfGjzlJwBEw"
 API_URL = "https://free-api-like-freefire-production.up.railway.app"
 
-bot = telebot.TeleBot(9071470594:AAFRoLM7b5cP1G7f14nQnglUwfGjzlJwBEw)
+bot = telebot.TeleBot("9071470594:AAFRoLM7b5cP1G7f14nQnglUwfGjzlJwBEw")
 
 @bot.message_handler(commands=['start'])
 def start(m):
