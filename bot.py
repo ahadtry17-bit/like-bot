@@ -15,7 +15,7 @@ def like(m):
     try:
         uid = m.text.split()[1]
         bot.reply_to(m, "⏳ Like bhej raha hun...")
-        r = requests.get(f"{API_URL}/like?uid={uid}&server_name=PK&=ahadtry17", timeout=30)
+        r = requests.get(f"{API_URL}/like?uid={uid}&server_name=PK&key=ahadtry17", timeout=30)
         bot.reply_to(m, f"✅ Done! {r.text[:1000]}")
     except:
         bot.reply_to(m, "Aise likho: /like 123456789")
