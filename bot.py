@@ -2,7 +2,7 @@ import telebot
 import requests
 
 TOKEN = "9071470594:AAFRoLM7b5cP1G7f14nQnglUwfGjzlJwBEw"
-API_URL = "https://free-api-like-freefire-production.up.railway.app"
+API_URL = "https://my-perfect-like-api-production.up.railway.app"
 
 bot = telebot.TeleBot(TOKEN)
 
